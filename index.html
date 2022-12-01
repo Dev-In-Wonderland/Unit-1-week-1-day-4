@@ -18,7 +18,7 @@
        <h1>EPICODE - IL BLOG DEI DEVELOPERS</h1>
        <nav class="menu">
         <ul>
-           <li><a id="menu-1" href="home.html" target="_blank">⇒HOME⇐</a></li><br>
+           <li><a class="menu-1" href="home.html" target="_blank">⇒HOME⇐</a></li><br>
 
            <li><a class="menu-2" href="articoli.html" target="_blank">⇒ARTICOLI⇐</a></li><br>
 
@@ -30,9 +30,9 @@
 
     </header>
     <main>
-        <h1>Come creare un post per i template</h1>
+        <h1 class="create">Come creare un post per i template</h1>
 
-            <p class ="rossi">di Mario Rossi - 
+            <p class ="rossi"><ion-icon name="create"></ion-icon>di Mario Rossi - 
                 <span>
                      <ion-icon name="time"></ion-icon>pubblicato il 25 - 10 -2020
                 </span>
@@ -47,13 +47,13 @@
 <ul>
 
     <li>Contenuti di intestazione del tag <code>&ltheader&gt</code></li>
-    <li>Contenuti centrali variabili del tag <code>&ltmain&gt</code></li>
+    <li>Contenuti centrali variabili del tag <code>&ltmain&gt</code> (corpo principale)</li>
     <li>Contenuti di fine pagine comuni, da inserire nel tag <code>&ltfooter&gt</code></li>
 </ul>
 
 <p>
-Formattazione del codice <br>
-Il testo dell'articolo dovrà essere formattato  per identificare tutte le parti da <strong>selezionare con i CSS</strong>. Perciò i passi saranno:<br>
+<h3 class="format">Formattazione del codice</h3><br>
+Il testo dell'articolo dovrà essere formattato  per identificare tutte le parti da <strong>selezionare con i CSS.</strong> Perciò i passi saranno:<br>
 <ol>
     <li>Progettare su carta il markup finale, assegnando ad ogni specifico tessto il tag appropriato</li>
     <li>Scrivere l'HTML dai tag esterni a quelli interni e dall'alto verso il basso </li>
@@ -106,7 +106,7 @@ Il testo dell'articolo dovrà essere formattato  per identificare tutte le parti
     Un test di validazione potrà essere fatto tramite il <a class="tool" href="#">tool online</a> dedicato allo scopo. Una volta ottimizzatoil tutto, avremo raggiunto il nostro obiettivo ed essere stati dei veri developers come loro:<br>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/IjzdMvuzxDY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe height="50">
 </p>
-</main>
+
 
 <section>
 <h2>Novità</h2>
@@ -116,33 +116,34 @@ Il testo dell'articolo dovrà essere formattato  per identificare tutte le parti
 <form action="">
 <fieldset>
 
-    <input type="text" placeholder="Inserisci l'email">
-    <button type="submit" value="Iscriviti!"></button>
+    <input type="email" placeholder="Inserisci l'email">
+    <input onclick="alert('Sei iscritto alla newsletter!')" class="button" type="submit" value="Iscriviti!"></input>
 </fieldset>
 </form>
 </section>
 <aside>
 
 
-    <h2>Articoli correlati</h2>
+    <h2 class="correlato">Articoli correlati</h2>
 
     <div><a href="#">Validare il codice HTML</a>
-    <p>Categoria: develop</p>
-    <p>Data: 18-9-2020</p></div>
+    <p><ion-icon name="pricetag"></ion-icon>Categoria: develop</p>
+    <p><ion-icon name="calendar"></ion-icon>Data: 18-9-2020</p></div>
 
     <div><a href="#">Correggere la sintassi</a>
-    <p>Categoria develop</p>
-    <p>Data: 16-9-2020</p></div>
+    <p><ion-icon name="pricetag"></ion-icon>Categoria develop</p>
+    <p><ion-icon name="calendar"></ion-icon>Data: 16-9-2020</p></div>
 
     <div><a href="#">Meno Kb nella pagina</a>
-    <p>Categoria: ottimizzazione</p>
-    <p>30-9-2020</p></div>
+    <p><ion-icon name="pricetag"></ion-icon>Categoria: ottimizzazione</p>
+    <p><ion-icon name="calendar"></ion-icon>30-9-2020</p></div>
 
 
 </aside>
+</main>
 <footer>
 
-<h3>Blog Epicode&copy; 2021</h3>
+<h3 class="blog">Blog Epicode&copy; 2021</h3>
 
 <p>Testata online di Mario Rossi, registrata con prot. n.213/2018 - vie Luigi Einaudi 2 - Milano.</p>
 <p>P.IVA 00112233. <a href="mailto:info@epicode.school">info@epicode.school</a> </p>

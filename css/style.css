@@ -16,11 +16,15 @@ header {
     display: flex;
     flex-direction: column;
     width: 70%;
-    margin-left: 3.3em;
+    margin-left: 4em;
     box-shadow: 0 3px 3px lightgrey;
     color: white;
     
 
+}
+
+nav {
+    margin-top: 30px;
 }
 
 header nav li {
@@ -46,42 +50,30 @@ h1{
     text-align: center;
     font-weight: 900;
 }
-/*
-.menu {
-    margin: 1em;
-    text-align: center;
+
+a.menu-1:hover {
+    color: firebrick;
 }
 
-a {
-    color: white;
-    text-decoration: none;
-    padding: 1em;
+a.menu-2:hover {
+    color: yellow;
 }
 
-.menu-2 .menu-1 .menu3 {
-    padding: 10px;
-} 
-
-.menu-2 {
-    margin-top: 10 px;
+a.menu-3:hover {
+    color: orangered;
 }
-*/
 
 /* MAIN */
 
 main{
-    /*height: 400px;
-    width: 70%;
-    
-    margin-top: 10px;
-    margin-bottom: 10px;
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-    width: 70%;
-    margin-left: 3.3em;*/
     padding: 2em;
     background-color: white;
+    width: 70%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 3em;
 }
 
 
@@ -92,6 +84,10 @@ main h1 {
     font-size: 2em;
 }
 
+.create {
+    padding: 1em 0.3em 1em 0.3em;
+}
+
 
 .rossi {
     color: rgb(185, 185, 185);
@@ -99,6 +95,16 @@ main h1 {
 
 main ul, ol {
     margin-left: 2em;
+    padding: 1em;
+}
+
+main li {
+    padding: 1em;
+    line-height: 1em;
+}
+
+.format {
+    padding: 1em 1em 1em 0em;
 }
 
 strong {
@@ -118,6 +124,7 @@ iframe {
     width: 100%;
     border-radius: 20px;
     margin-bottom: 2em;
+    padding: 1em 1em 1em 0;
 }
 
 
@@ -135,6 +142,7 @@ table {
 caption {
      font-weight: bold;
      font-style: italic;
+     padding: 1em;
 }
 
 thead tr {
@@ -183,12 +191,16 @@ input {
     border-bottom: 1px dashed #333;
 }
 
-button {
-    padding: 4px 7px;
+.button {
+    padding:4px 7px;
     background-color: rgb(24, 97, 160);
     color: white;
     border: 0;
     font-weight: bold;
+}
+
+fieldset {
+    padding: 0.5em;
 }
 
 /* ELEMENTI NELL' ASIDE */
@@ -215,6 +227,11 @@ aside div p:last-child {
     text-align: right;
 }
 
+.correlato {
+    padding: 1em 0.3em 1em 0.3em;
+    font-weight: 500;
+}
+
 /* FOOTER */
 
 footer {
@@ -232,4 +249,8 @@ footer a {
 footer p {
     padding-top: 1em;
     padding-bottom: 1em
+}
+
+.blog {
+    padding: 0.3em;
 }
