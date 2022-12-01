@@ -17,12 +17,14 @@
 
        <h1>EPICODE - IL BLOG DEI DEVELOPERS</h1>
        <nav class="menu">
-           <a id="menu-1" href="home.html" target="_blank">=&gtHOME&lt;=</a><br>
+        <ul>
+           <li><a id="menu-1" href="home.html" target="_blank">⇒HOME⇐</a></li><br>
 
-           <a class="menu-2" href="articoli.html" target="_blank">=&gtARTICOLI&lt=</a><br>
+           <li><a class="menu-2" href="articoli.html" target="_blank">⇒ARTICOLI⇐</a></li><br>
 
-           <a class="menu-3" href="job.html" target="_blank">=&gtLAVORA CON NOI&lt=</a>
-
+           <li><a class="menu-3" href="job.html" target="_blank">⇒LAVORA CON NOI⇐</a></li>
+           
+        </ul>
        </nav>
 
 
@@ -30,23 +32,23 @@
     <main>
         <h1>Come creare un post per i template</h1>
 
-        <i class="fa-light fa-square-pen"></i>
-        <ion-icon name="time"></ion-icon>
+            <p class ="rossi">di Mario Rossi - 
+                <span>
+                     <ion-icon name="time"></ion-icon>pubblicato il 25 - 10 -2020
+                </span>
 
+            </p>
+            <p>
 
-    
-
-    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
-
-    <article>
-La prima cosa da fare è suddividere in blocchi logici la pagina, identificando le <strong>parti comuni</strong> da applicare a tutte le pagine <br> 
-Le varie aree saranno quindi suddivise in:<br>
-
+        
+               La prima cosa da fare è suddividere in blocchi logici la pagina, identificando le <strong>parti comuni</strong> da applicare a tutte le pagine <br> 
+            Le varie aree saranno quindi suddivise in:<br>
+            </p>
 <ul>
 
-    <li>Contenuti di intestazione del tag <code>&gtheader&lt</code></li>
-    <li>Contenuti centrali variabili del tag <code>&gtmain&lt</code></li>
-    <li>Contenuti di fine pagine comuni, da inserire nel tag <code>&gtfooter&lt</code></li>
+    <li>Contenuti di intestazione del tag <code>&ltheader&gt</code></li>
+    <li>Contenuti centrali variabili del tag <code>&ltmain&gt</code></li>
+    <li>Contenuti di fine pagine comuni, da inserire nel tag <code>&ltfooter&gt</code></li>
 </ul>
 
 <p>
@@ -64,11 +66,14 @@ Il testo dell'articolo dovrà essere formattato  per identificare tutte le parti
 
     <table>
         <caption>Diffusione dei CSS</caption>
+        <thead>
         <tr>
             <th>Anno</th>
             <th>% di utilizzo</th>
             <th>Supporto browsers</th>
         </tr>
+    </thead>
+    <tbody>
         <tr>
             <td>2000</td>
             <td>20%</td>
@@ -94,20 +99,61 @@ Il testo dell'articolo dovrà essere formattato  per identificare tutte le parti
             <td>100%</td>
             <td>76%</td>
         </tr>
+    </tbody>
     </table>
 </p>
 <p>
-    Un test di validazione potrà essere fatto tramite il <a class="tool" href="">tool online</a> dedicato allo scopo. Una volta ottimizzatoil tutto, avremo raggiunto il nostro obiettivo ed essere stati dei veri developers come loro:<br>
+    Un test di validazione potrà essere fatto tramite il <a class="tool" href="#">tool online</a> dedicato allo scopo. Una volta ottimizzatoil tutto, avremo raggiunto il nostro obiettivo ed essere stati dei veri developers come loro:<br>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/IjzdMvuzxDY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe height="50">
 </p>
-
-
-
-
-
-    </article>
-
 </main>
 
+<section>
+<h2>Novità</h2>
+<p>
+    Vuoi rimanere aggiornato su altre novità dei blog? Iscriviti alla nostra newsletter:
+</p>
+<form action="">
+<fieldset>
+
+    <input type="text" placeholder="Inserisci l'email">
+    <button type="submit" value="Iscriviti!"></button>
+</fieldset>
+</form>
+</section>
+<aside>
+
+
+    <h2>Articoli correlati</h2>
+
+    <div><a href="#">Validare il codice HTML</a>
+    <p>Categoria: develop</p>
+    <p>Data: 18-9-2020</p></div>
+
+    <div><a href="#">Correggere la sintassi</a>
+    <p>Categoria develop</p>
+    <p>Data: 16-9-2020</p></div>
+
+    <div><a href="#">Meno Kb nella pagina</a>
+    <p>Categoria: ottimizzazione</p>
+    <p>30-9-2020</p></div>
+
+
+</aside>
+<footer>
+
+<h3>Blog Epicode&copy; 2021</h3>
+
+<p>Testata online di Mario Rossi, registrata con prot. n.213/2018 - vie Luigi Einaudi 2 - Milano.</p>
+<p>P.IVA 00112233. <a href="mailto:info@epicode.school">info@epicode.school</a> </p>
+
+</footer>
+
+
+
+    
+
+
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 </body>
 </html>
