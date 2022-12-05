@@ -5,8 +5,20 @@ body {
 }
 /* HEADER */
 
+#logo {
+    width: 400px;
+    padding-top: 1em;
+    height: 5em;
+}
+
+
+#header {
+    margin-left: 3.8 em;
+    width: 80%;
+}
+
 header {
-    background-image: linear-gradient(rgb(34, 102, 181) 0% , rgb(6, 37, 76));
+    background-image: linear-gradient(rgb(34, 102, 181) 0% , rgb(15, 76, 150));
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
@@ -125,6 +137,10 @@ iframe {
     border-radius: 20px;
     margin-bottom: 2em;
     padding: 1em 1em 1em 0;
+}
+
+#iframe {
+    height: 12em;
 }
 
 
@@ -253,4 +269,11 @@ footer p {
 
 .blog {
     padding: 0.3em;
+}
+
+#p-footer-1 {
+    padding: 0;
+}
+#p-footer-2 {
+    padding: 0;
 }
